@@ -28,13 +28,13 @@ img {
     width: 250px;
     display: block;
     margin: 0 auto;
-    border: dashed #ffffff 10px;
+    border: 10px dashed #ffffff;
 }
 
 div {
     min-height: 125px;
     padding: 20px;
-    border: solid #ffffff 3px;
+    border: 3px solid #ffffff;
 }
 
 div.introduction {
@@ -102,7 +102,9 @@ footer {
 footer p {
     font-size: 20px;
     text-align: right;
-    padding-top: 15px;
+    /*padding-top: 15px;
     padding-right: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 15px;*/
+    padding: 15px 15px 15px 0;
 }
+
